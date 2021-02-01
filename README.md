@@ -26,12 +26,12 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 ## Author
 
 
-👤 **Ari Karim and Tedros Tesfay**
+👤 **Luqman Musah and Tedros Tesfay**
 
 - Github: [Tedros Tesfay](https://github.com/tta2yta)
 - Emaii: tta2yta@gmail.com
-- Github: https://github.com/arikarim
-- Email: arikarim146@gmail.com
+- Github: [Luqman Musah](https://github.com/luqmanmusah)
+- Email: musahluqman@gmail.com
 
 👤
 
