@@ -307,6 +307,10 @@ section.main-content {
     .header-main-1-lg > div {
       padding-top: 40px;
     }
+
+    .top-stories-sec img{
+        height: 300px;
+      }
 }
 
 @media screen and (max-width: 767.99px) {
@@ -345,9 +349,35 @@ section.main-content {
       font-size: 12px;
     }
 
+    .social-icons {
+        float: left !important;
+      }
+    
+      .copy-right {
+        position: relative;
+        font-size: 12px;
+        top: 3px;
+        padding-bottom: 5px;
+      }
+
     .fa-user {
         display: inline;
         margin-right: -50px;
+      }
+
+      .feature-stories img,
+      .top-stories img,
+      .debate img,
+      .my-turn img,
+      .cult-and-tra img {
+        max-width: 100% !important;
+        height: 100% !important;
+      }
+    
+      .my-turn img,
+      .cult-and-tra img {
+        width: 100% !important;
+        max-height: 100% !important;
       }
 
   }
