@@ -73,6 +73,10 @@ body {
   height: 50px;
 }
 
+footer svg {
+    fill: #f72210;
+  }
+  
 footer svg,
 .header-top svg {
   display: inline;
