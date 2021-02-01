@@ -274,6 +274,29 @@ section.main-content {
       transform: scale(1.05);
       padding-left: 80px;
     }
+
+    .footer-icon {
+        padding-top: 30px;
+      }
+    
+      section.main-content {
+        margin-top: 0;
+      }
+    
+      .opinion-img > div,
+      .opinion-img-sm .signup{
+        margin: 0 auto !important;
+        max-width: 300px;
+      }
+    
+      .feature-stories img {
+        max-width: 100%;
+        height: 230px !important;
+      }
+    
+      .top-stories img {
+        height: 275px !important;
+      }
   }
 
   @media screen and (min-width: 992.99px) {
