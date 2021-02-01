@@ -99,3 +99,18 @@ body {
     width: 80px;
     margin-top: 0;
   }
+
+  .header-bottom-menu li a,
+.footer-edition li a,
+.footer-contact li a {
+  font-size: 14px;
+}
+
+.header-top-menu li a {
+  font-size: 14px;
+}
+
+.header-top svg {
+  margin-top: 20px;
+  fill: white;
+}
