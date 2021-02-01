@@ -21,7 +21,7 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/thenextweek/5d7257ccfc04c24d357777e11c3148bfdb1d6c91/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/luqmanmusah/thenextweek_clone/0dc53d6c83981e04e327ab296de4e6fc5723e319/index.html">Live version</a>
 
 ## Author
 
