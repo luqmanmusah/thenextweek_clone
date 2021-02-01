@@ -12,7 +12,7 @@ body {
     min-width: 100%;
     margin-top: 70px;
   }
-
+  
   .header-main-3-lg {
     position: fixed;
     min-height: 20px;
@@ -27,7 +27,7 @@ body {
   .header-btn div {
     margin-bottom: 20px;
   }
-
+  
   header div:first-child {
     position: relative;
   }
@@ -40,13 +40,13 @@ body {
   header svg {
     transform: scale(2.3);
   }
-
+  
   .login {
     font-size: 16px;
     padding-right: 16px;
     font-weight: bold;
   }
-
+  
   .subscribe {
     border-radius: 15px;
     padding: 8px;
@@ -66,25 +66,25 @@ body {
     border-left: 22px solid white;
     border-top: 16px solid #f72210;
   }
-
+  
   .header-main-2 img,
-.header-main-3 img {
-  width: 50px;
-  height: 50px;
-}
-
-footer svg {
+  .header-main-3 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer svg {
     fill: #f72210;
   }
   
-footer svg,
-.header-top svg {
-  display: inline;
-  width: 236px;
-  height: 36px;
-}
-
-.main2-svg-link {
+  footer svg,
+  .header-top svg {
+    display: inline;
+    width: 236px;
+    height: 36px;
+  }
+  
+  .main2-svg-link {
     margin-top: 0 !important;
     width: 100px !important;
     height: 20px;
@@ -110,23 +110,40 @@ footer svg,
     width: 80px;
     margin-top: 0;
   }
-
+  
   .header-bottom-menu li a,
-.footer-edition li a,
-.footer-contact li a {
-  font-size: 14px;
-}
-
-.header-top-menu li a {
-  font-size: 14px;
-}
-
-.header-top svg {
-  margin-top: 20px;
-  fill: white;
-}
-
-section.main-content {
+  .footer-edition li a,
+  .footer-contact li a {
+    font-size: 14px;
+  }
+  
+  .header-top-menu li a {
+    font-size: 14px;
+  }
+  
+  .header-top svg {
+    margin-top: 20px;
+    fill: white;
+  }
+  
+  .fa {
+    font-size: 14px;
+    text-decoration: none;
+    background: rgb(161, 138, 138);
+  }
+  
+  .copy-right {
+    position: absolute;
+    font-size: 10px;
+    bottom: 10px;
+    left: 0;
+  }
+  
+  .fa-user {
+    display: none;
+  }
+  
+  section.main-content {
     margin-top: -76px;
     z-index: -10;
     overflow-x: hidden;
