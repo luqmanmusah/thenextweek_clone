@@ -27,3 +27,16 @@ body {
   .header-btn div {
     margin-bottom: 20px;
   }
+
+  header div:first-child {
+    position: relative;
+  }
+  
+  .header-date,
+  .header-btn {
+    padding-top: 30px;
+  }
+  
+  header svg {
+    transform: scale(2.3);
+  }
