@@ -126,6 +126,134 @@ footer svg,
   fill: white;
 }
 
+section.main-content {
+    margin-top: -76px;
+    z-index: -10;
+    overflow-x: hidden;
+  }
+  
+  .feature-stories .card,
+  .top-stories .card {
+    width: 100%;
+  }
+  
+  .feature-stories img,
+  .top-stories img {
+    max-width: 100%;
+    height: 200px;
+  }
+  
+  .feature-stories h5 a{
+    color: black;
+  }
+  
+  .top-stories h5 a,
+  .debate h5 a,
+  .editorial h5 a{
+    font-size: 17px;
+    font: bold 17px/21px "Roboto Condensed",sans-serif;
+    color: black;
+  }
+  
+  .feature-stories p,
+  .top-stories p {
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  
+  .debate p {
+    font-size: 14px;
+    font-family: "Roboto Condensed",sans-serif;
+  }
+  
+  
+  .my-turn h5 a,
+  .cult-and-tra h5 a,
+  .us a {
+    line-height: 0 !important;
+    font: bold 17px/21px "Roboto Condensed",sans-serif !important;
+    color: black;
+  }
+  
+  .card-img-sec {
+    position: relative;
+  }
+  
+  .txt-in-image {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    background-color: #ffffffe6;
+    width: fit-content;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .my-turn img,
+  .cult-and-tra img {
+    max-height: 144px;
+    width: 144px !important;
+  }
+  
+  .more-stories img,
+  .latest-stories img {
+    max-height: 95px;
+    min-width: 95px !important;
+  }
+  
+  .debate img {
+    min-width: 70px;
+    height: 70px;
+  }
+  
+  .opinion-img img {
+    height: 200px;
+  }
+  
+  .debate-item  {
+    width: 50%;
+    border-top: 4px solid rgb(201, 177, 177) !important;
+    border-bottom: 3px double rgb(201, 177, 177) !important;
+    
+  }
+  
+  .debate-item-1 {
+    border-bottom: 4px solid rgb(201, 177, 177) !important;
+  }
+  
+  .debate-item{
+    position: relative;
+  }
+  
+  .debate-vs {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+  }
+  
+  .opinion img{
+    max-height: 75px !important;
+  }
+  
+  .signup .icon-n, .magazine .icon-n{
+    width: 39px;
+    height: 38px;
+    background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  }
+  
+  .signup h6 {
+    font-size: 15px;
+  }
+  
+  .form-submit {
+    background-color: #F61602;
+  }
+  
+  .feature-stories-db img {
+    max-width: 100%;
+    height: 100%;
+  }
+
 @media screen and (max-width: 992px) {
     .header-main-1,
     .header-top-menu,
