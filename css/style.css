@@ -126,6 +126,15 @@ footer svg,
   fill: white;
 }
 
+.srh {
+max-width: 90px;
+}
+
+.bi {
+top:10px;
+left: 70px;;
+}
+
 .fa {
   font-size: 14px;
   text-decoration: none;
