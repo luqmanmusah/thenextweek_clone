@@ -114,3 +114,27 @@ body {
   margin-top: 20px;
   fill: white;
 }
+
+@media screen and (max-width: 992px) {
+    .header-main-1,
+    .header-top-menu,
+    .header-bottom-menu {
+      display: none;
+    }
+  
+    .container-fluid {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .fa-user {
+      display: none;
+    }
+  
+    .header-main-2 svg {
+      transform: scale(1.05);
+      padding-left: 80px;
+    }
+
+  
+  }
