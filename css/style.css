@@ -308,6 +308,11 @@ body {
     min-width: 110px ;
   }
   
+  .img-subs-2 {
+    top: 30px;
+    left: 110px;
+  }
+
   @media screen and (max-width: 992px) {
     .header-main-1,
     .header-top-menu,
