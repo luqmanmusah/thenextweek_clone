@@ -1,432 +1,424 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e2d2d2;
-  }
-  
-  .container-fluid {
-    min-width: 100%;
-    padding:0 !important;
-  }
-  
-  header {
-    min-width: 100%;
-    margin-top: 70px;
-  }
-  
-  .header-main-3-lg {
-    position: fixed;
-    min-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2d2d2;
+}
+
+.container-fluid {
+  min-width: 100%;
+  padding: 0 !important;
+}
+
+header {
+  min-width: 100%;
+  margin-top: 70px;
+}
+
+.header-main-3-lg {
+  position: fixed;
+  min-height: 20px;
+  display: none;
+  z-index: 10;
+}
+
+header > div {
+  background-color: #f72210;
+}
+
+.header-btn div {
+  margin-bottom: 20px;
+}
+
+header div:first-child {
+  position: relative;
+}
+
+.header-date,
+.header-btn {
+  padding-top: 30px;
+}
+
+header svg {
+  transform: scale(2.3);
+}
+
+.login {
+  font-size: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+}
+
+.subscribe {
+  border-radius: 15px;
+  padding: 8px;
+  background-color: #ffe400;
+  margin-right: 30px;
+}
+
+.hr-icon-bottom {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  content: "";
+  display: block;
+  width: 92px;
+  height: 14px;
+  background-color: #f72210;
+  border-left: 22px solid white;
+  border-top: 16px solid #f72210;
+}
+
+.header-main-2 img,
+.header-main-3 img {
+  width: 50px;
+  height: 50px;
+}
+
+footer svg {
+  fill: #f72210;
+}
+
+footer svg,
+.header-top svg {
+  display: inline;
+  width: 236px;
+  height: 36px;
+}
+
+.main2-svg-link {
+  margin-top: 0 !important;
+  width: 100px !important;
+  height: 20px;
+  padding: 0 !important;
+}
+
+.main2-svg {
+  margin: 15px 0 0 -90px !important;
+  width: 300px !important;
+}
+
+.header-main-2 svg {
+  margin-left: -30px;
+  height: 40px;
+  width: 350px;
+  margin-top: 25px;
+  position: static;
+}
+
+.header-main-3 svg {
+  margin-left: 30px;
+  height: 20px;
+  width: 80px;
+  margin-top: 0;
+}
+
+.header-bottom-menu li a,
+.footer-edition li a,
+.footer-contact li a {
+  font-size: 14px;
+}
+
+.header-top-menu li a {
+  font-size: 14px;
+}
+
+.header-top svg {
+  margin-top: 20px;
+  fill: white;
+}
+
+.fa {
+  font-size: 14px;
+  text-decoration: none;
+  background: rgb(161, 138, 138);
+}
+
+.copy-right {
+  position: absolute;
+  font-size: 10px;
+  bottom: 10px;
+  left: 0;
+}
+
+.fa-user {
+  display: none;
+}
+
+section.main-content {
+  margin-top: -76px;
+  z-index: -10;
+  overflow-x: hidden;
+}
+
+.feature-stories .card,
+.top-stories .card {
+  width: 100%;
+}
+
+.feature-stories img,
+.top-stories img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.feature-stories h5 a {
+  color: black;
+}
+
+.top-stories h5 a,
+.debate h5 a,
+.editorial h5 a {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.feature-stories p,
+.top-stories p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.debate p {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.my-turn h5 a,
+.cult-and-tra h5 a {
+  font: bold 17px/21px "Roboto Condensed", sans-serif !important;
+  color: black;
+}
+
+.card-img-sec {
+  position: relative;
+}
+
+.txt-in-image {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  background-color: #ffffffe6;
+  width: fit-content;
+  text-align: center;
+  font-size: 14px;
+}
+
+.my-turn img,
+.cult-and-tra img {
+  max-height: 144px;
+  width: 144px !important;
+}
+
+.more-stories img,
+.latest-stories img {
+  max-height: 95px;
+  min-width: 95px !important;
+}
+
+.debate img {
+  min-width: 70px;
+  height: 70px;
+}
+
+.opinion-img img {
+  height: 200px;
+}
+
+.debate-item {
+  position: relative;
+  width: 50%;
+  border-top: 4px solid rgb(201, 177, 177) !important;
+  border-bottom: 3px double rgb(201, 177, 177) !important;
+}
+
+.debate-item-1 {
+  border-bottom: 4px solid rgb(201, 177, 177) !important;
+}
+
+.debate-vs {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+}
+
+.opinion img {
+  max-height: 75px !important;
+}
+
+.signup .icon-n,
+.magazine .icon-n {
+  width: 39px;
+  height: 38px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.signup h6 {
+  font-size: 15px;
+}
+
+.form-submit {
+  background-color: #f61602;
+}
+
+.feature-stories-db img {
+  max-width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .header-main-1,
+  .header-top-menu,
+  .header-bottom-menu {
     display: none;
-    z-index: 10;
   }
-  
-  header > div {
-    background-color: #f72210;
+
+  .container-fluid {
+    padding: 0;
+    margin: 0;
   }
-  
-  .header-btn div {
-    margin-bottom: 20px;
-  }
-  
-  header div:first-child {
-    position: relative;
-  }
-  
-  .header-date,
-  .header-btn {
-    padding-top: 30px;
-  }
-  
-  header svg {
-    transform: scale(2.3);
-  }
-  
-  .login {
-    font-size: 16px;
-    padding-right: 16px;
-    font-weight: bold;
-  }
-  
-  .subscribe {
-    border-radius: 15px;
-    padding: 8px;
-    background-color: #ffe400;
-    margin-right: 30px;
-  }
-  
-  .hr-icon-bottom {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    content: "";
-    display: block;
-    width: 92px;
-    height: 14px;
-    background-color: #f72210;
-    border-left: 22px solid white;
-    border-top: 16px solid #f72210;
-  }
-  
-  .header-main-2 img,
-  .header-main-3 img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  footer svg {
-    fill: #f72210;
-  }
-  
-  footer svg,
-  .header-top svg {
-    display: inline;
-    width: 236px;
-    height: 36px;
-  }
-  
-  .main2-svg-link {
-    margin-top: 0 !important;
-    width: 100px !important;
-    height: 20px;
-    padding: 0 !important;
-  }
-  
-  .main2-svg {
-    margin: 15px 0 0 -90px !important;
-    width: 300px !important;
-  }
-  
-  .header-main-2 svg {
-    margin-left: -30px;
-    height: 40px;
-    width: 350px;
-    margin-top: 25px;
-    position: static;
-  }
-  
-  .header-main-3 svg {
-    margin-left: 30px;
-    height: 20px;
-    width: 80px;
-    margin-top: 0;
-  }
-  
-  .header-bottom-menu li a,
-  .footer-edition li a,
-  .footer-contact li a {
-    font-size: 14px;
-  }
-  
-  .header-top-menu li a {
-    font-size: 14px;
-  }
-  
-  .header-top svg {
-    margin-top: 20px;
-    fill: white;
-  }
-  
-  .fa {
-    font-size: 14px;
-    text-decoration: none;
-    background: rgb(161, 138, 138);
-  }
-  
-  .copy-right {
-    position: absolute;
-    font-size: 10px;
-    bottom: 10px;
-    left: 0;
-  }
-  
+
   .fa-user {
     display: none;
   }
-  
+
+  .header-main-2 svg {
+    transform: scale(1.05);
+    padding-left: 80px;
+  }
+
+  .footer-icon {
+    padding-top: 30px;
+  }
+
   section.main-content {
-    margin-top: -76px;
-    z-index: -10;
-    overflow-x: hidden;
+    margin-top: 0;
   }
-  
-  .feature-stories .card,
-  .top-stories .card {
-    width: 100%;
+
+  .opinion-img > div,
+  .opinion-img-sm .signup {
+    margin: 0 auto !important;
+    max-width: 300px;
   }
-  
-  .feature-stories img,
+
+  .feature-stories img {
+    max-width: 100%;
+    height: 230px !important;
+  }
+
   .top-stories img {
-    max-width: 100%;
-    height: 200px;
+    height: 275px !important;
   }
-  
-  .feature-stories h5 a{
-    color: black;
-  }
-  
-  .top-stories h5 a,
-  .debate h5 a,
-  .editorial h5 a{
-    font-size: 17px;
-    font: bold 17px/21px "Roboto Condensed",sans-serif;
-    color: black;
-  }
-  
-  .feature-stories p,
-  .top-stories p {
-    font-size: 15px;
-    font-family: Arial,Helvetica,sans-serif;
-  }
-  
-  .debate p {
-    font-size: 14px;
-    font-family: "Roboto Condensed",sans-serif;
-  }
-  
-  
-  .my-turn h5 a,
-  .cult-and-tra h5 a,
-  .us a {
-    line-height: 0 !important;
-    font: bold 17px/21px "Roboto Condensed",sans-serif !important;
-    color: black;
-  }
-  
-  .card-img-sec {
-    position: relative;
-  }
-  
-  .txt-in-image {
-    position: absolute;
-    bottom: 0;
-    color: black;
-    background-color: #ffffffe6;
-    width: fit-content;
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .my-turn img,
-  .cult-and-tra img {
-    max-height: 144px;
-    width: 144px !important;
-  }
-  
-  .more-stories img,
-  .latest-stories img {
-    max-height: 95px;
-    min-width: 95px !important;
-  }
-  
-  .debate img {
-    min-width: 70px;
-    height: 70px;
-  }
-  
-  .opinion-img img {
-    height: 200px;
-  }
-  
-  .debate-item  {
-    width: 50%;
-    border-top: 4px solid rgb(201, 177, 177) !important;
-    border-bottom: 3px double rgb(201, 177, 177) !important;
-    
-  }
-  
-  .debate-item-1 {
-    border-bottom: 4px solid rgb(201, 177, 177) !important;
-  }
-  
-  .debate-item{
-    position: relative;
-  }
-  
-  .debate-vs {
-    position: absolute;
-    bottom: -10%;
-    left: 50%;
-  }
-  
-  .opinion img{
-    max-height: 75px !important;
-  }
-  
-  .signup .icon-n, .magazine .icon-n{
-    width: 39px;
-    height: 38px;
-    background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  }
-  
-  .signup h6 {
-    font-size: 15px;
-  }
-  
-  .form-submit {
-    background-color: #F61602;
-  }
-  
-  .feature-stories-db img {
-    max-width: 100%;
-    height: 100%;
+}
+
+@media screen and (min-width: 992.99px) {
+  .header-main-2 {
+    display: none;
   }
 
-@media screen and (max-width: 992px) {
-    .header-main-1,
-    .header-top-menu,
-    .header-bottom-menu {
-      display: none;
-    }
-  
-    .container-fluid {
-      padding: 0;
-      margin: 0;
-    }
-  
-    .fa-user {
-      display: none;
-    }
-  
-    .header-main-2 svg {
-      transform: scale(1.05);
-      padding-left: 80px;
-    }
-
-    .footer-icon {
-        padding-top: 30px;
-      }
-    
-      section.main-content {
-        margin-top: 0;
-      }
-    
-      .opinion-img > div,
-      .opinion-img-sm .signup{
-        margin: 0 auto !important;
-        max-width: 300px;
-      }
-    
-      .feature-stories img {
-        max-width: 100%;
-        height: 230px !important;
-      }
-    
-      .top-stories img {
-        height: 275px !important;
-      }
+  .header-main-1-lg > div {
+    padding-top: 40px;
   }
 
-  @media screen and (min-width: 992.99px) {
-    .header-main-2 {
-      display: none;
-    }
-  
-    .header-main-1-lg > div {
-      padding-top: 40px;
-    }
-
-    .top-stories-sec img{
-        height: 300px;
-      }
+  .top-stories-sec img {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 767.99px) {
-    .header-main-2 svg {
-      margin-left: -30px;
-      height: 30px;
-      width: 250px;
-      margin-top: 25px;
-      position: static;
-    }
-  
-    .header-main-3 svg {
-      margin-bottom: 10px;
-    }
-  
-    .header-main-3 .person-icon-acc {
-      margin-top: 10px !important;
-    }
-  
-    .header-main-2 img,
-    .header-main-3 img {
-      width: 40px;
-      height: 40px;
-    }
-  
-    .login {
-      display: none;
-    }
-  
-    .subscribe {
-      border-radius: 15px;
-      padding: 5px;
-      background-color: #ffe400;
-      margin-right: 5px;
-      margin-left: 10px;
-      font-size: 12px;
-    }
-
-    .social-icons {
-        float: left !important;
-      }
-    
-      .copy-right {
-        position: relative;
-        font-size: 12px;
-        top: 3px;
-        padding-bottom: 5px;
-      }
-
-    .fa-user {
-        display: inline;
-        margin-right: -50px;
-      }
-
-      .feature-stories img,
-      .top-stories img,
-      .debate img,
-      .my-turn img,
-      .cult-and-tra img {
-        max-width: 100% !important;
-        height: 100% !important;
-      }
-    
-      .my-turn img,
-      .cult-and-tra img {
-        width: 100% !important;
-        max-height: 100% !important;
-      }
-
+  .header-main-2 svg {
+    margin-left: -30px;
+    height: 30px;
+    width: 250px;
+    margin-top: 25px;
+    position: static;
   }
 
-  @media screen and (max-width: 1131px) {
-    .header-top-menu li a {
-      font-size: 15px;
-      padding: 5px 8px;
-    }
-  
-    .header-bottom-menu li a {
-      font-size: 14px;
-      padding-right: 0;
-    }
+  .header-main-3 svg {
+    margin-bottom: 10px;
   }
-  
-  @media screen and (min-width: 1387px) {
-    .container-fluid {
-      min-width: 100%;
-      padding-left: 7% !important;
-      padding-right: 7% !important;
-    }
-  
-    .header-top-menu li a {
-      font-size: 17px;
-      padding-right: 15px;
-    }
+
+  .header-main-3 .person-icon-acc {
+    margin-top: 10px !important;
   }
-  
-  @media screen and (max-width: 451px) {
-    .main2-svg {
-      margin: 15px 0 0 -95px !important;
-      width: 260px !important;
-    }
+
+  .header-main-2 img,
+  .header-main-3 img {
+    width: 40px;
+    height: 40px;
   }
+
+  .login {
+    display: none;
+  }
+
+  .subscribe {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #ffe400;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .social-icons {
+    float: left !important;
+  }
+
+  .copy-right {
+    position: relative;
+    font-size: 12px;
+    top: 3px;
+    padding-bottom: 5px;
+  }
+
+  .fa-user {
+    display: inline;
+    margin-right: -50px;
+  }
+
+  .feature-stories img,
+  .top-stories img,
+  .debate img,
+  .my-turn img,
+  .cult-and-tra img {
+    max-width: 100% !important;
+    height: 100% !important;
+  }
+
+  .my-turn img,
+  .cult-and-tra img {
+    width: 100% !important;
+    max-height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1131px) {
+  .header-top-menu li a {
+    font-size: 15px;
+    padding: 5px 8px;
+  }
+
+  .header-bottom-menu li a {
+    font-size: 14px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1387px) {
+  .container-fluid {
+    min-width: 100%;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+  }
+
+  .header-top-menu li a {
+    font-size: 17px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .main2-svg {
+    margin: 15px 0 0 -95px !important;
+    width: 260px !important;
+  }
+}
