@@ -184,3 +184,35 @@ body {
     }
 
   }
+
+  @media screen and (max-width: 1131px) {
+    .header-top-menu li a {
+      font-size: 15px;
+      padding: 5px 8px;
+    }
+  
+    .header-bottom-menu li a {
+      font-size: 14px;
+      padding-right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1387px) {
+    .container-fluid {
+      min-width: 100%;
+      padding-left: 7% !important;
+      padding-right: 7% !important;
+    }
+  
+    .header-top-menu li a {
+      font-size: 17px;
+      padding-right: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 451px) {
+    .main2-svg {
+      margin: 15px 0 0 -75px !important;
+      width: 220px !important;
+    }
+  }
