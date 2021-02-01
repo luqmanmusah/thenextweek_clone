@@ -7,9 +7,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
@@ -1408,5 +1405,26 @@
 
 </footer>
 </div>
+
+
+<script>
+  $(window).scroll(function(e){ 
+  var $el = $('.header-main-3-lg'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+  $el.css({'position': 'fixed', 'top': '0', 'left':'0'});
+  $el.css({'margin-top': '0', 'width': '100%'});
+  $el.css({'display': 'block', 'width': '100%'});
+  //alert("kk") 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+  $el.css({'position': 'static', 'top': '0px'}); 
+  $el.css({'display': 'none', 'width': '100%'});
+  } 
+  });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
