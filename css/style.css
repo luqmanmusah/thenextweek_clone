@@ -72,3 +72,30 @@ body {
   width: 50px;
   height: 50px;
 }
+
+.main2-svg-link {
+    margin-top: 0 !important;
+    width: 100px !important;
+    height: 20px;
+    padding: 0 !important;
+  }
+  
+  .main2-svg {
+    margin: 15px 0 0 -90px !important;
+    width: 300px !important;
+  }
+  
+  .header-main-2 svg {
+    margin-left: -30px;
+    height: 40px;
+    width: 350px;
+    margin-top: 25px;
+    position: static;
+  }
+  
+  .header-main-3 svg {
+    margin-left: 30px;
+    height: 20px;
+    width: 80px;
+    margin-top: 0;
+  }
