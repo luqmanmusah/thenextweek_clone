@@ -197,7 +197,7 @@ section.main-content {
   bottom: 0;
   color: black;
   background-color: #ffffffe6;
-  width: fit-content;
+  width: 50%;
   text-align: center;
   font-size: 14px;
 }
