@@ -73,6 +73,13 @@ body {
   height: 50px;
 }
 
+footer svg,
+.header-top svg {
+  display: inline;
+  width: 236px;
+  height: 36px;
+}
+
 .main2-svg-link {
     margin-top: 0 !important;
     width: 100px !important;
@@ -183,6 +190,11 @@ body {
       font-size: 12px;
     }
 
+    .fa-user {
+        display: inline;
+        margin-right: -50px;
+      }
+
   }
 
   @media screen and (max-width: 1131px) {
@@ -212,7 +224,7 @@ body {
   
   @media screen and (max-width: 451px) {
     .main2-svg {
-      margin: 15px 0 0 -75px !important;
-      width: 220px !important;
+      margin: 15px 0 0 -95px !important;
+      width: 260px !important;
     }
   }
