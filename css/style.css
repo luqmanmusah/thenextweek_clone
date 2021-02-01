@@ -146,3 +146,41 @@ body {
       padding-top: 40px;
     }
 }
+
+@media screen and (max-width: 767.99px) {
+    .header-main-2 svg {
+      margin-left: -30px;
+      height: 30px;
+      width: 250px;
+      margin-top: 25px;
+      position: static;
+    }
+  
+    .header-main-3 svg {
+      margin-bottom: 10px;
+    }
+  
+    .header-main-3 .person-icon-acc {
+      margin-top: 10px !important;
+    }
+  
+    .header-main-2 img,
+    .header-main-3 img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .login {
+      display: none;
+    }
+  
+    .subscribe {
+      border-radius: 15px;
+      padding: 5px;
+      background-color: #ffe400;
+      margin-right: 5px;
+      margin-left: 10px;
+      font-size: 12px;
+    }
+
+  }
