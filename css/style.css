@@ -312,16 +312,23 @@ body {
     top: 30px;
     left: 110px;
   }
-
+  
   .subs-newsletter h3 {
     font: bold 24px "Roboto Condensed",sans-serif;
   }
-
+  
   .subs-newsletter p {
     font: 15px "Roboto Condensed",sans-serif;
   }
-
-  @media screen and (max-width: 992px) {
+  
+  .subs-header {
+    font: 16px "Roboto Condensed",sans-serif;
+    color: #F72210;;
+  }
+  
+  
+  
+  @media screen and (max-width: 991.99px) {
     .header-main-1,
     .header-top-menu,
     .header-bottom-menu {
@@ -364,10 +371,9 @@ body {
     .top-stories img {
       height: 275px !important;
     }
-  
   }
   
-  @media screen and (min-width: 992.99px) {
+  @media screen and (min-width: 992px) {
     .header-main-2 {
       display: none;
     }
@@ -378,6 +384,13 @@ body {
   
     .top-stories-sec img{
       height: 300px;
+    }
+  
+    .newslet-img {
+      min-width: 70px;
+      max-width: 185px;
+      min-height: 344px;
+      max-height: 432px;
     }
   }
   
@@ -458,6 +471,35 @@ body {
     min-height: 258px;
     min-width: 258px ;
   }
+  
+  .subs-newsletter form.form-subs {
+    max-width: 150px;
+    margin: auto;
+  }
+  
+  .subs-newsletter-img{
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  
+  .subs-newsletter-txt h3 {
+    width: 90%;
+    margin: auto;
+    font: bold 20px "Roboto Condensed",sans-serif !important;
+    text-align: center;
+  }
+  
+  .subs-newsletter-txt p {
+    max-width: 300px;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .newslet-img {
+    min-width: 100% !important;
+    max-height: 170px !important;
+  }
   }
   
   @media screen and (max-width: 1131px) {
@@ -489,6 +531,16 @@ body {
     .main2-svg {
       margin: 15px 0 0 -75px !important;
       width: 220px !important;
+    }
+  
+    .subs-newsletter-img {
+      margin-left: 3% !important;
+      border: 1px solid red;
+    }
+  
+    .img-subs-2 {
+      top: 30px;
+      left: 30%;
     }
   }
   
