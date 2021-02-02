@@ -67,6 +67,15 @@ header svg {
   border-top: 16px solid #f72210;
 }
 
+.srh {
+  width: 100px !important;
+}
+
+.bi-search {
+  top: 10px;
+  left: 80px;
+}
+
 .header-main-2 img,
 .header-main-3 img {
   width: 50px;
