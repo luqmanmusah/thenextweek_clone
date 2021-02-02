@@ -313,6 +313,14 @@ body {
     left: 110px;
   }
 
+  .subs-newsletter h3 {
+    font: bold 24px "Roboto Condensed",sans-serif;
+  }
+
+  .subs-newsletter p {
+    font: 15px "Roboto Condensed",sans-serif;
+  }
+
   @media screen and (max-width: 992px) {
     .header-main-1,
     .header-top-menu,
