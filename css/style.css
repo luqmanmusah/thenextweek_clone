@@ -321,6 +321,11 @@ section.main-content {
   max-width: 110px;
 }
 
+.us h6:first-child {
+  font-size: 22px;
+  color: #f72210;
+}
+
 @media screen and (max-width: 991.99px) {
   .container-fluid {
     padding: 0;
