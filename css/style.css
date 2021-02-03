@@ -54,12 +54,6 @@ input[type="text"] {
   color: black;
 }
 
-.header-main-1 a:hover,
-.header-main-2 a:hover,
-.header-main-3 a:hover{
-  text-decoration: none;
-}
-
 .hr-icon-bottom {
   top: 100%;
   right: 0;
@@ -102,7 +96,7 @@ footer svg,
 }
 
 .main2-svg {
-  margin: 15px 0 0 -90px ;
+  margin: 15px 0 0 -90px;
   width: 300px;
 }
 
@@ -324,6 +318,12 @@ section.main-content {
 .us h6:first-child {
   font-size: 22px;
   color: #f72210;
+}
+
+.header-main-1 a:hover,
+.header-main-2 a:hover,
+.header-main-3 a:hover {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991.99px) {
