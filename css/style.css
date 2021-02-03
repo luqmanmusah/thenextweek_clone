@@ -311,11 +311,11 @@ section.main-content {
 }
 
 .us .card-img-top {
-    max-height: 110px;
-    min-height: 110px;
-    min-width: 110px;
-    max-width: 110px;
-  }
+  max-height: 110px;
+  min-height: 110px;
+  min-width: 110px;
+  max-width: 110px;
+}
 
 @media screen and (max-width: 991.99px) {
   .container-fluid {
@@ -504,14 +504,14 @@ section.main-content {
   }
 }
 
-@media screen and (max-width:575.99px) {
-    .us .card-img-top {
-      max-height: 110px;
-      min-height: 110px;
-      min-width: 110px;
-      max-width: 110px;
-    }
-    }
+@media screen and (max-width: 575.99px) {
+  .us .card-img-top {
+    max-height: 110px;
+    min-height: 110px;
+    min-width: 110px;
+    max-width: 110px;
+  }
+}
 
 @media screen and (max-width: 451px) {
   .main2-svg {
