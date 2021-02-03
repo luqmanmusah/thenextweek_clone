@@ -52,6 +52,13 @@ input[type="text"] {
   padding: 8px;
   background-color: #ffe400;
   margin-right: 30px;
+  color: black;
+}
+
+.header-main-1 a:hover,
+.header-main-2 a:hover,
+.header-main-3 a:hover{
+  text-decoration: none;
 }
 
 .hr-icon-bottom {
@@ -402,6 +409,7 @@ section.main-content {
     margin-right: 5px;
     margin-left: 10px;
     font-size: 12px;
+    color: black;
   }
 
   .social-icons {
