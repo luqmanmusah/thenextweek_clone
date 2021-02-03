@@ -370,7 +370,7 @@ section.main-content {
 
   .subs-newsletter-form div {
     width: 80% !important;
-}
+  }
 }
 
 @media screen and (max-width: 767.99px) {
@@ -471,7 +471,6 @@ section.main-content {
     min-width: 100% !important;
     max-height: 170px !important;
   }
-
 }
 
 @media screen and (max-width: 1131px) {
