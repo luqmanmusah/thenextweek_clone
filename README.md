@@ -21,7 +21,7 @@ This project is  developed as a completion of HTML & CSS section of Microverse m
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/luqmanmusah/thenextweek_clone/855aae669e307fcf8ca2cf680e89c44b4848ee39/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/luqmanmusah/thenextweek_clone/ee042e925fa3f37df98f3aee7fe73b93971277b4/index.html">Live version</a>
 
 ## Author
 
